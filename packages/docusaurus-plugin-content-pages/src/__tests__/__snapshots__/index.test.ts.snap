@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`docusaurus-plugin-content-pages loads simple pages 1`] = `
+[
+  {
+    "permalink": "/",
+    "source": "@site/src/pages/index.js",
+    "type": "jsx",
+  },
+  {
+    "permalink": "/typescript",
+    "source": "@site/src/pages/typescript.tsx",
+    "type": "jsx",
+  },
+  {
+    "description": "Markdown index page",
+    "frontMatter": {
+      "custom_frontMatter": "added by parseFrontMatter",
+    },
+    "permalink": "/hello/",
+    "source": "@site/src/pages/hello/index.md",
+    "title": "Index",
+    "type": "mdx",
+    "unlisted": false,
+  },
+  {
+    "description": "my MDX page",
+    "frontMatter": {
+      "custom_frontMatter": "added by parseFrontMatter",
+      "description": "my MDX page",
+      "title": "MDX page",
+    },
+    "permalink": "/hello/mdxPage",
+    "source": "@site/src/pages/hello/mdxPage.mdx",
+    "title": "MDX page",
+    "type": "mdx",
+    "unlisted": false,
+  },
+  {
+    "permalink": "/hello/translatedJs",
+    "source": "@site/src/pages/hello/translatedJs.js",
+    "type": "jsx",
+  },
+  {
+    "description": "translated Markdown page",
+    "frontMatter": {
+      "custom_frontMatter": "added by parseFrontMatter",
+    },
+    "permalink": "/hello/translatedMd",
+    "source": "@site/src/pages/hello/translatedMd.md",
+    "title": undefined,
+    "type": "mdx",
+    "unlisted": false,
+  },
+  {
+    "permalink": "/hello/world",
+    "source": "@site/src/pages/hello/world.js",
+    "type": "jsx",
+  },
+]
+`;
+
+exports[`docusaurus-plugin-content-pages loads simple pages with french translations 1`] = `
+[
+  {
+    "permalink": "/fr/",
+    "source": "@site/src/pages/index.js",
+    "type": "jsx",
+  },
+  {
+    "permalink": "/fr/typescript",
+    "source": "@site/src/pages/typescript.tsx",
+    "type": "jsx",
+  },
+  {
+    "description": "Markdown index page",
+    "frontMatter": {
+      "custom_frontMatter": "added by parseFrontMatter",
+    },
+    "permalink": "/fr/hello/",
+    "source": "@site/src/pages/hello/index.md",
+    "title": "Index",
+    "type": "mdx",
+    "unlisted": false,
+  },
+  {
+    "description": "my MDX page",
+    "frontMatter": {
+      "custom_frontMatter": "added by parseFrontMatter",
+      "description": "my MDX page",
+      "title": "MDX page",
+    },
+    "permalink": "/fr/hello/mdxPage",
+    "source": "@site/src/pages/hello/mdxPage.mdx",
+    "title": "MDX page",
+    "type": "mdx",
+    "unlisted": false,
+  },
+  {
+    "permalink": "/fr/hello/translatedJs",
+    "source": "@site/i18n/fr/docusaurus-plugin-content-pages/hello/translatedJs.js",
+    "type": "jsx",
+  },
+  {
+    "description": "translated Markdown page (fr)",
+    "frontMatter": {
+      "custom_frontMatter": "added by parseFrontMatter",
+    },
+    "permalink": "/fr/hello/translatedMd",
+    "source": "@site/i18n/fr/docusaurus-plugin-content-pages/hello/translatedMd.md",
+    "title": undefined,
+    "type": "mdx",
+    "unlisted": false,
+  },
+  {
+    "permalink": "/fr/hello/world",
+    "source": "@site/src/pages/hello/world.js",
+    "type": "jsx",
+  },
+]
+`;
